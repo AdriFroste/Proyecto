@@ -1,15 +1,4 @@
-[gd_scene load_steps=2 format=3 uid="uid://p3dihstutijc"]
+[gd_scene format=3 uid="uid://bhet1md8vmu3d"]
 
-[sub_resource type="SpriteFrames" id="SpriteFrames_hqa1s"]
-animations = [{
-"frames": [],
-"loop": true,
-"name": &"caminar",
-"speed": 5.0
-}]
-
-[node name="Player" type="Area2D"]
-
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-sprite_frames = SubResource("SpriteFrames_hqa1s")
-animation = &"caminar"
+[node name="Mundo" type="Node2D"]
+position = Vector2(-11, -11)
