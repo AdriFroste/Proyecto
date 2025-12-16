@@ -10,8 +10,8 @@ script/source = "extends CharacterBody2D
 
 
 const SPEED = 300.0
-const JUMP_VELOCITY = -400.0
-
+const JUMP_VELOCITY = -400
+@onready var animated_sprite_2d: AnimatedSprite2D
 
 func _physics_process(delta: float) -> void:
 	# Add the gravity.
@@ -27,11 +27,12 @@ func _physics_process(delta: float) -> void:
 	var direction := Input.get_axis(\"ui_left\", \"ui_right\")
 	if direction:
 		velocity.x = direction * SPEED
+		$AnimatedSprite2D.play(\"Run\")
+
 	else:
 		velocity.x = move_toward(velocity.x, 0, SPEED)
 
 	move_and_slide()
-
 "
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_6vc6x"]
@@ -234,25 +235,26 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_3kbxk")
 }],
-"loop": true,
+"loop": false,
 "name": &"Run",
 "speed": 12.0
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_iw3ti"]
-size = Vector2(14, 35)
+size = Vector2(20, 35)
 
 [node name="jugador" type="CharacterBody2D"]
+slide_on_ceiling = false
 script = SubResource("GDScript_a0p7g")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 position = Vector2(4, -40)
 sprite_frames = SubResource("SpriteFrames_or7eb")
-animation = &"Idle"
+animation = &"Run"
 autoplay = "Idle"
-frame_progress = 0.6296626
+frame = 8
+frame_progress = 0.6841624
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-visible = false
-position = Vector2(1, -17.5)
+position = Vector2(-2, -17.5)
 shape = SubResource("RectangleShape2D_iw3ti")
