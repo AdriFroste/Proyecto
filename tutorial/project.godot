@@ -1,0 +1,30 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="tutorial"
+run/main_scene="uid://cfy88mj584tg"
+config/features=PackedStringArray("4.5", "GL Compatibility")
+config/icon="res://icon.svg"
+
+[layer_names]
+
+2d_physics/layer_1="solido"
+2d_physics/layer_2="daño"
+2d_physics/layer_3="jugador"
+2d_physics/layer_4="recolectable"
+
+[rendering]
+
+textures/canvas_textures/default_texture_filter=0
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+environment/defaults/default_clear_color=Color(0.17671171, 0.29905695, 0.5025436, 1)
