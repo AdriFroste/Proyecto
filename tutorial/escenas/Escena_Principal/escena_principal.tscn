@@ -1,31 +1,6 @@
-[gd_scene load_steps=4 format=3 uid="uid://cfy88mj584tg"]
+[gd_scene load_steps=2 format=3 uid="uid://cfy88mj584tg"]
 
 [ext_resource type="PackedScene" uid="uid://daw6putulrjs5" path="res://escenas/Nivel_1/nivel_1.tscn" id="1_s2djk"]
-[ext_resource type="Shader" uid="uid://cqyfofe6150qb" path="res://escenas/Escena_Principal/escena_principal.gdshader" id="2_lagqw"]
-
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_770am"]
-shader = ExtResource("2_lagqw")
-shader_parameter/overlay = false
-shader_parameter/scanlines_opacity = 0.4
-shader_parameter/scanlines_width = 0.25
-shader_parameter/grille_opacity = 1.0
-shader_parameter/resolution = Vector2(640, 480)
-shader_parameter/pixelate = false
-shader_parameter/roll = false
-shader_parameter/roll_speed = 0.15
-shader_parameter/roll_size = 3.63600017271
-shader_parameter/roll_variation = 1.9110000875126198
-shader_parameter/distort_intensity = 0.05
-shader_parameter/noise_opacity = 0.4
-shader_parameter/noise_speed = 5.0
-shader_parameter/static_noise_intensity = 0.0
-shader_parameter/aberration = 0.03
-shader_parameter/brightness = 1.4
-shader_parameter/discolor = true
-shader_parameter/warp_amount = 0.1
-shader_parameter/clip_warp = false
-shader_parameter/vignette_intensity = 0.4
-shader_parameter/vignette_opacity = 0.5
 
 [node name="Escena_Principal" type="Node2D"]
 position = Vector2(-1, 0)
@@ -37,13 +12,3 @@ zoom = Vector2(2.6, 2.6)
 position = Vector2(2, -2)
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
-
-[node name="ColorRect" type="ColorRect" parent="CanvasLayer"]
-material = SubResource("ShaderMaterial_770am")
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_top = -2.0
-offset_bottom = -2.0
-grow_horizontal = 2
-grow_vertical = 2
