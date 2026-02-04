@@ -1,4 +1,4 @@
-[gd_resource type="TileSet" load_steps=3 format=3 uid="uid://cdipgntmw0r7q"]
+[gd_resource type="TileSet" format=3 uid="uid://cdipgntmw0r7q"]
 
 [ext_resource type="Texture2D" uid="uid://47o35pl1b7ou" path="res://sprites/tileset_mazmorra.png" id="1_rx7fh"]
 

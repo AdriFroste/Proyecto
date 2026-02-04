@@ -1,17 +1,17 @@
 extends CharacterBody2D
 
-const SPEED = 128
-const ACCELERATION = 1024
-const FALL_SPEED = 500
-const GRAVITY = 980
+const SPEED = 256
+const ACCELERATION = 2048
+const FALL_SPEED = 512
+const GRAVITY = 600
 
-const JUMP_POWER_INITIAL = -250
+const JUMP_POWER_INITIAL = -320
 const JUMP_CUT_MULTIPLIER = 0.1
 
 const PREJUMP_TIME = 0.12
 const COYOTE_TIME = 0.10
 
-const WALL_JUMP_PUSH = 128
+const WALL_JUMP_PUSH = 256
 
 # Nuevas constantes para wall sliding
 const WALL_SLIDE_INITIAL_SPEED = 0  # Velocidad inicial al deslizar
