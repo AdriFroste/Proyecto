@@ -1,12 +1,13 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1770204708
+::res://::1770720302
 icon.svg::CompressedTexture2D::3596759946226483595::1768996634::1768996666::1::::<><><>0<>0<>d4c473c2969ed7a60c1c977a8100f866<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-nivel_1.gdshader::Shader::4103460519943023799::1770203518::0::1::::<><><>0<>0<><>::
+nivel_1.gdshader::Shader::4103460519943023799::1770630173::0::1::::<><><>0<>0<><>::
 nivel_1.tscn::PackedScene::667068343339008317::1769516949::0::1::::<><><>0<>0<><>::uid://cdipgntmw0r7q::::res://tile_set/nivel_1.tres<>uid://ce4oasphbufhe::::res://escenas/personaje/personaje.tscn<>uid://byp0no5r7dfop::::res://nivel_1.gdshader
 nivel_3.tscn::PackedScene::5860058503705887293::1770203928::0::1::::<><><>0<>0<><>::uid://cdipgntmw0r7q::::res://tile_set/nivel_1.tres<>uid://ce4oasphbufhe::::res://escenas/personaje/personaje.tscn
-::res://escenas/::1770204626
+nivel_5.tscn::PackedScene::2724584729324429314::1770630173::0::1::::<><><>0<>0<><>::uid://cdipgntmw0r7q::::res://tile_set/nivel_1.tres<>uid://ce4oasphbufhe::::res://escenas/personaje/personaje.tscn
+::res://escenas/::1770206872
 Efecto_Ctr.gdshader::Shader::3486517826106335325::1768996634::0::1::::<><><>0<>0<><>::
-nivel_4.tscn::PackedScene::4787755733191283768::1770204626::0::1::::<><><>0<>0<><>::uid://cdipgntmw0r7q::::res://tile_set/nivel_1.tres<>uid://ce4oasphbufhe::::res://escenas/personaje/personaje.tscn
+nivel_4.tscn::PackedScene::4787755733191283768::1770206872::0::1::::<><><>0<>0<><>::uid://cdipgntmw0r7q::::res://tile_set/nivel_1.tres<>uid://ce4oasphbufhe::::res://escenas/personaje/personaje.tscn
 ::res://escenas/bordes/::1768996634
 bordes.tscn::PackedScene::2646740205140901135::1768996634::0::1::::<><><>0<>0<><>::uid://47o35pl1b7ou::::res://sprites/tileset_mazmorra.png
 ::res://escenas/Escena_Principal/::1769073955
@@ -36,6 +37,6 @@ sonido_moneda.wav::AudioStreamWAV::6792469516706585032::1768996634::1768996667::
 char_lime.png::CompressedTexture2D::8899322935368935280::1768996634::1768996667::1::::<><><>0<>0<>f23f748b210a4c6fee8ab740216a0e42<>res://.godot/imported/char_lime.png-9c1eda47c641e6334691dccf0cdff152.ctex::
 mago_spritesheet.png::CompressedTexture2D::7741442412082028401::1768996634::1768996666::1::::<><><>0<>0<>70d759eeffaf0c6ed8b8c61959cd796c<>res://.godot/imported/mago_spritesheet.png-d763f4a6a07b61488452c0850218f8b4.ctex::
 tileset_mazmorra.png::CompressedTexture2D::2102438193168101304::1768996634::1768996666::1::::<><><>0<>0<>0989e5e10f07ccc7dc8f04b2dd1c5191<>res://.godot/imported/tileset_mazmorra.png-995e5bfa4cad9f0eb88f2627b42749f5.ctex::
-::res://tile_set/::1770203518
-nivel_1.tres::TileSet::5000845102718167420::1770203518::0::1::::<><><>0<>0<><>::uid://47o35pl1b7ou::::res://sprites/tileset_mazmorra.png
+::res://tile_set/::1770630173
+nivel_1.tres::TileSet::5000845102718167420::1770630173::0::1::::<><><>0<>0<><>::uid://47o35pl1b7ou::::res://sprites/tileset_mazmorra.png
 Pinchos.tres::TileSet::3249110593262512961::1769600489::0::1::::<><><>0<>0<><>::
