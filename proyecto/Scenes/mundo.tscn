@@ -1,0 +1,30 @@
+[gd_scene load_steps=4 format=3 uid="uid://bw0d8b5sf2iqf"]
+
+[ext_resource type="PackedScene" uid="uid://36oma1gsp57o" path="res://Scenes/jugador.tscn" id="1_4cw5y"]
+
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_4cw5y"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_4cw5y"]
+size = Vector2(20, 96)
+
+[node name="Mundo" type="Node2D"]
+
+[node name="Jugador" parent="." instance=ExtResource("1_4cw5y")]
+position = Vector2(1, -18)
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(0, -11)
+offset = Vector2(0, -40)
+zoom = Vector2(3, 3)
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Camera2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Camera2D/StaticBody2D"]
+position = Vector2(1, 22)
+shape = SubResource("WorldBoundaryShape2D_4cw5y")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(45, -38)
+shape = SubResource("RectangleShape2D_4cw5y")
