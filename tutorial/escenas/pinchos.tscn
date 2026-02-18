@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://c68amydaai3ec"]
+
+[ext_resource type="Texture2D" uid="uid://c1rkwla3i4tjb" path="res://sprites/kindpng_5633026.png" id="1_rvpb6"]
+[ext_resource type="Script" uid="uid://bg17rj3qi758n" path="res://Scripts/Pinchos.gd" id="2_oesdp"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_rvpb6"]
+size = Vector2(875.87463, 462.96228)
+
+[node name="Node2D" type="Node2D" unique_id=1294639556]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1825158655]
+position = Vector2(-14.582426, 1.2159034)
+scale = Vector2(0.039960057, 0.03996006)
+texture = ExtResource("1_rvpb6")
+
+[node name="Area2D" type="Area2D" parent="Sprite2D" unique_id=257694627]
+script = ExtResource("2_oesdp")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite2D/Area2D" unique_id=2111487731]
+position = Vector2(2.0627136, -11.659227)
+shape = SubResource("RectangleShape2D_rvpb6")

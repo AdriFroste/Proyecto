@@ -1,4 +1,4 @@
-[gd_scene load_steps=19 format=3 uid="uid://ce4oasphbufhe"]
+[gd_scene format=3 uid="uid://ce4oasphbufhe"]
 
 [ext_resource type="Script" uid="uid://dwescms8hiqn" path="res://escenas/personaje/personaje.gd" id="1_yv5yb"]
 [ext_resource type="Texture2D" uid="uid://dy15swd0kqveu" path="res://sprites/char_lime.png" id="2_yv5yb"]
@@ -128,15 +128,15 @@ animations = [{
 "speed": 20.0
 }]
 
-[node name="personaje" type="CharacterBody2D" node_paths=PackedStringArray("animacion")]
+[node name="personaje" type="CharacterBody2D" unique_id=546495787 node_paths=PackedStringArray("animacion")]
 script = ExtResource("1_yv5yb")
 animacion = NodePath("animacion")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1621825456]
 scale = Vector2(0.3, 0.3)
 shape = SubResource("CapsuleShape2D_yv5yb")
 
-[node name="animacion" type="AnimatedSprite2D" parent="."]
+[node name="animacion" type="AnimatedSprite2D" parent="." unique_id=2046772940]
 position = Vector2(1.9073486e-06, -2.999998)
 scale = Vector2(0.2, 0.2)
 sprite_frames = SubResource("SpriteFrames_iqlba")

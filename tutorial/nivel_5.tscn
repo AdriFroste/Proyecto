@@ -2,6 +2,7 @@
 
 [ext_resource type="TileSet" uid="uid://cdipgntmw0r7q" path="res://tile_set/nivel_1.tres" id="1_ddjy0"]
 [ext_resource type="PackedScene" uid="uid://ce4oasphbufhe" path="res://escenas/personaje/personaje.tscn" id="2_xueta"]
+[ext_resource type="PackedScene" uid="uid://c68amydaai3ec" path="res://escenas/pinchos.tscn" id="3_xueta"]
 
 [node name="Node2D" type="Node2D" unique_id=1799238383]
 
@@ -24,3 +25,6 @@ position = Vector2(-200, 115)
 [node name="Camera2D" type="Camera2D" parent="." unique_id=859615817]
 zoom = Vector2(2.4, 2.2)
 limit_enabled = false
+
+[node name="Node2D" parent="." unique_id=1294639556 instance=ExtResource("3_xueta")]
+position = Vector2(-127, 117)
