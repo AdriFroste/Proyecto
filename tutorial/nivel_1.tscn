@@ -3,6 +3,7 @@
 [ext_resource type="TileSet" uid="uid://cdipgntmw0r7q" path="res://tile_set/nivel_1.tres" id="1_xi31o"]
 [ext_resource type="PackedScene" uid="uid://ce4oasphbufhe" path="res://escenas/personaje/personaje.tscn" id="2_eciuy"]
 [ext_resource type="Shader" uid="uid://byp0no5r7dfop" path="res://nivel_1.gdshader" id="3_2lask"]
+[ext_resource type="PackedScene" uid="uid://dtlniwj68kfg1" path="res://escenas/control.tscn" id="4_m2gv8"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_m2gv8"]
 shader = ExtResource("3_2lask")
@@ -81,3 +82,9 @@ polygon = PackedVector2Array(72, 80, 78, 76, 73, 73, 78, 68, 72, 63, 79, 60, 72,
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="pinchos4" unique_id=683247882]
 polygon = PackedVector2Array(128, 81, 122, 83, 128, 88, 121, 92, 128, 96, 121, 100, 127, 104, 120, 108, 128, 111, 127, 81)
+
+[node name="Contador" parent="." unique_id=1330906052 instance=ExtResource("4_m2gv8")]
+offset_left = -219.0
+offset_top = -139.0
+offset_right = -219.0
+offset_bottom = -139.0

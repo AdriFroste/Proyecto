@@ -1,3 +1,5 @@
-res://escenas/pinchos.tscn
+res://escenas/menu muerte.tscn
 res://tile_set/nivel_1.tres
 res://nivel_1.gdshader
+res://nivel_1.tscn
+res://nivel_5.tscn
