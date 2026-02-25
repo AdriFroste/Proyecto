@@ -1,8 +1,9 @@
+Label
+TextEdit
 Button
 VBoxContainer
 TextureRect
 ColorRect
-Label
 Panel
 TileMapLayer
 CollisionShape2D
@@ -11,4 +12,3 @@ StaticBody2D
 Sprite2D
 TileMap
 AnimatedSprite2D
-CharacterBody2D

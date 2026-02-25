@@ -1,14 +1,14 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1771933333
+::res://::1772016430
 icon.svg::CompressedTexture2D::3596759946226483595::1768996634::1768996666::1::::<><><>0<>0<>d4c473c2969ed7a60c1c977a8100f866<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-nivel_1.gdshader::Shader::4103460519943023799::1771840696::0::1::::<><><>0<>0<><>::
-nivel_1.tscn::PackedScene::667068343339008317::1771413674::0::1::::<><><>0<>0<><>::uid://cdipgntmw0r7q::::res://tile_set/nivel_1.tres<>uid://ce4oasphbufhe::::res://escenas/personaje/personaje.tscn<>uid://byp0no5r7dfop::::res://nivel_1.gdshader<>uid://dtlniwj68kfg1::::res://escenas/control.tscn
+nivel_1.gdshader::Shader::4103460519943023799::1771933430::0::1::::<><><>0<>0<><>::
+nivel_1.tscn::PackedScene::667068343339008317::1771933617::0::1::::<><><>0<>0<><>::uid://cdipgntmw0r7q::::res://tile_set/nivel_1.tres<>uid://ce4oasphbufhe::::res://escenas/personaje/personaje.tscn<>uid://byp0no5r7dfop::::res://nivel_1.gdshader<>uid://dtlniwj68kfg1::::res://escenas/control.tscn
 nivel_3.tscn::PackedScene::5860058503705887293::1770203928::0::1::::<><><>0<>0<><>::uid://cdipgntmw0r7q::::res://tile_set/nivel_1.tres<>uid://ce4oasphbufhe::::res://escenas/personaje/personaje.tscn
-nivel_5.tscn::PackedScene::2724584729324429314::1771840696::0::1::::<><><>0<>0<><>::uid://cdipgntmw0r7q::::res://tile_set/nivel_1.tres<>uid://ce4oasphbufhe::::res://escenas/personaje/personaje.tscn<>uid://c68amydaai3ec::::res://escenas/pinchos.tscn
-::res://escenas/::1771417801
+nivel_5.tscn::PackedScene::2724584729324429314::1771933898::0::1::::<><><>0<>0<><>::uid://cdipgntmw0r7q::::res://tile_set/nivel_1.tres<>uid://ce4oasphbufhe::::res://escenas/personaje/personaje.tscn<>uid://c68amydaai3ec::::res://escenas/pinchos.tscn
+::res://escenas/::1771936000
 control.tscn::PackedScene::8516363013623718394::1771413736::0::1::::<><><>0<>0<><>::uid://d2dp764wpisoy::::res://Scripts/contador.gd
 Efecto_Ctr.gdshader::Shader::3486517826106335325::1768996634::0::1::::<><><>0<>0<><>::
-menu muerte.tscn::PackedScene::1311581982011841525::1771417801::0::1::::<><><>0<>0<><>::uid://mlwjsdju35ro::::res://imagenes/Dark Gothic Castle.png
+menu muerte.tscn::PackedScene::1311581982011841525::1771936000::0::1::::<><><>0<>0<><>::uid://mlwjsdju35ro::::res://imagenes/Dark Gothic Castle.png
 nivel_4.tscn::PackedScene::4787755733191283768::1770725900::0::1::::<><><>0<>0<><>::uid://cdipgntmw0r7q::::res://tile_set/nivel_1.tres<>uid://ce4oasphbufhe::::res://escenas/personaje/personaje.tscn<>uid://c68amydaai3ec::::res://escenas/pinchos.tscn
 pinchos.tscn::PackedScene::7016842680771201018::1771412629::0::1::::<><><>0<>0<><>::uid://c1rkwla3i4tjb::::res://sprites/kindpng_5633026.png<>uid://bg17rj3qi758n::::res://Scripts/Pinchos.gd
 ::res://escenas/bordes/::1768996634
@@ -26,12 +26,14 @@ personaje.tscn::PackedScene::5114314703617340886::1770725664::0::1::::<><><>0<>0
 Sprite_Frame.tres::SpriteFrames::5985216257622716809::1768996634::0::1::::<><><>0<>0<><>::uid://dikaop4nchj18::::res://sprites/mago_spritesheet.png
 ::res://escenas/prueba_fisica/::1768996634
 prueba_fisicas.tscn::PackedScene::7071280211825906003::1768996634::0::1::::<><><>0<>0<><>::uid://brikd1dyjy684::::res://icon.svg
-::res://imagenes/::1771844922
+::res://imagenes/::1772016975
 85b81c85d58647c99aa8e14593cbbc2a~tplv-jj85edgx6n-image-origin.jpeg::CompressedTexture2D::2449322664769182270::1771838127::1771839278::1::::<><><>0<>0<>1897f8ef48dfeacc2219085642806c72<>res://.godot/imported/85b81c85d58647c99aa8e14593cbbc2a~tplv-jj85edgx6n-image-origin.jpeg-7ca7ca3a9e0b04aa51a890a9972b7bbb.ctex::
 610C3pU5zQL._AC_UF1000,1000_QL80_.jpg::CompressedTexture2D::4592691864962543413::1771578742::1771837946::1::::<><><>0<>0<>26834cca4130bda9937a9fd1e82f9859<>res://.godot/imported/610C3pU5zQL._AC_UF1000,1000_QL80_.jpg-1afdf9a8905f9c015cddbce9ebf73341.ctex::
+d463c7dc-ee97-487b-8da8-c2d6903183a5-1666473829713-pfarm-with-png-watermarked.webp::CompressedTexture2D::2235275639883418215::1772016853::1772016982::1::::<><><>0<>0<>a1f8af0fbe80b0e8c05cdf019db212ae<>res://.godot/imported/d463c7dc-ee97-487b-8da8-c2d6903183a5-1666473829713-pfarm-with-png-watermarked.webp-bdbd8bdb8eaf0e4b0823f607f8f3bf97.ctex::
 Dark Gothic Castle.png::CompressedTexture2D::866327075428549576::1771414541::1771415647::1::::<><><>0<>0<>6f72df3a28e500469d82c1b8f0fe1f71<>res://.godot/imported/Dark Gothic Castle.png-88dd6506982fb9c318308274d15cd6ef.ctex::
 flat,750x,075,f-pad,750x1000,f8f8f8.jpg::CompressedTexture2D::8147242641421067087::1771498128::1771837946::1::::<><><>0<>0<>484ae2466660ce48ed97257c8e9a4448<>res://.godot/imported/flat,750x,075,f-pad,750x1000,f8f8f8.jpg-4b79ec2d0e9bf6c8fecf057826d39c63.ctex::
 fondo-de-juego-castillo-arte-píxeles-espeluznante-con-cielo-iluminado-por-luna-y-murciélagos-para-diseños-temáticos-327520108.jpg::CompressedTexture2D::258091983175614937::1771414408::1771414412::0::::<><><>0<>0<>f36026cf3cd7d4ae25f1b2096cbe4ff7<>::
+images.jpeg::CompressedTexture2D::8300523317640696609::1772016975::1772016982::1::::<><><>0<>0<>efb64de2a3ac86ccfb37ca952d87f6b2<>res://.godot/imported/images.jpeg-5765452ca3e1aafb3e4547ab789dc33a.ctex::
 images.steamusercontent.jpeg::CompressedTexture2D::8225700674878279673::1771844922::1771933333::1::::<><><>0<>0<>1f3641af086c6dcd470c342ebfdf12a4<>res://.godot/imported/images.steamusercontent.jpeg-5624d1deb010a646008d8883a9aeec78.ctex::
 maxresdefault.jpg::CompressedTexture2D::8909062320675808106::1771580683::1771837946::1::::<><><>0<>0<>9531eb358f0e4b9543fcc0fb61ef1943<>res://.godot/imported/maxresdefault.jpg-84db8744db1a69db741532320892bb0d.ctex::
 menufondo.jpg::CompressedTexture2D::9142500221032319041::1768996634::1768996666::1::::<><><>0<>0<>2bb2fb3432bb50ba7da90046d0a61349<>res://.godot/imported/menufondo.jpg-ebe417d3ae610fb59422285c4c59da27.ctex::
@@ -116,6 +118,6 @@ run-04.png::CompressedTexture2D::2776055148432389035::1558882096::1771412382::1:
 run-05.png::CompressedTexture2D::2393222812044196071::1558882094::1771412382::1::::<><><>0<>0<>7d21d7c8c69341d81bbbdc7ba64dd0d6<>res://.godot/imported/run-05.png-6e130bf1cc34670b3c706bbbd37c2814.ctex::
 run-06.png::CompressedTexture2D::420769540163844627::1558882092::1771412382::1::::<><><>0<>0<>0aeecc16a45dc854abf17996369d5229<>res://.godot/imported/run-06.png-5b1e77c2d07fdfe12d6ef5ef0a02a6af.ctex::
 run-07.png::CompressedTexture2D::1161826023606524686::1558882088::1771412382::1::::<><><>0<>0<>900166b30cc03fc3a840cec74c5a4094<>res://.godot/imported/run-07.png-dc78193b0f80670d7a218c12e813389e.ctex::
-::res://tile_set/::1771840696
-nivel_1.tres::TileSet::5000845102718167420::1771840696::0::1::::<><><>0<>0<><>::uid://47o35pl1b7ou::::res://sprites/tileset_mazmorra.png
+::res://tile_set/::1771933430
+nivel_1.tres::TileSet::5000845102718167420::1771933430::0::1::::<><><>0<>0<><>::uid://47o35pl1b7ou::::res://sprites/tileset_mazmorra.png
 Pinchos.tres::TileSet::3249110593262512961::1769600489::0::1::::<><><>0<>0<><>::

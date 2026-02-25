@@ -1,5 +1,7 @@
 res://escenas/menu muerte.tscn
 res://tile_set/nivel_1.tres
 res://nivel_1.gdshader
+res://Scripts/menu_muerte.gd
+res://escenas/control.tscn
+res://Scripts/contador.gd
 res://nivel_1.tscn
-res://nivel_5.tscn
