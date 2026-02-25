@@ -1,3 +1,6 @@
+CollisionShape2D
+Area2D
+TileMapLayer
 Label
 TextEdit
 Button
@@ -5,9 +8,6 @@ VBoxContainer
 TextureRect
 ColorRect
 Panel
-TileMapLayer
-CollisionShape2D
-Area2D
 StaticBody2D
 Sprite2D
 TileMap

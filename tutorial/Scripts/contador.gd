@@ -1,7 +1,7 @@
 extends Panel
 
 @export var personaje: Node2D
-@export var tiempo_limite: float = 10  # Cambiado de 180 a 10
+@export var tiempo_limite: float = 11  # Cambiado de 180 a 10
 @export var menu_muerte_path: String = "res://tutorial/escenas/menu muerte.tscn"
 
 @onready var label = $Label
