@@ -34,7 +34,7 @@ shader_parameter/vignette_opacity = 0.5
 [node name="nivel1" type="Node2D" unique_id=1660279948]
 
 [node name="pinchos" type="TileMapLayer" parent="." unique_id=601073621]
-tile_map_data = PackedByteArray("AAAEAP//AAAAAAEAAAAEAP7/AAAAAAEAAAAEAAUAAAAAAAEAAAAEAAMAAAAAAAEAAAAEAAQAAAAAAAEAAAAHAAIAAAABAAEAAAAHAAEAAAABAAEAAAAHAAAAAAABAAEAAAAHAAcAAAABAAEAAAAHAAYAAAABAAEAAAAHAP3/AAABAAEAAAAHAPz/AAABAAEAAAAHAPv/AAABAAEAAAA=")
+tile_map_data = PackedByteArray("AAAEAP//AAAAAAEAAAAEAP7/AAAAAAEAAAAEAAUAAAAAAAEAAAAEAAMAAAAAAAEAAAAEAAQAAAAAAAEAAAAHAAIAAAABAAEAAAAHAAEAAAABAAEAAAAHAAAAAAABAAEAAAAHAAcAAAABAAEAAAAHAAYAAAABAAEAAAAHAPz/AAABAAEAAAAHAPv/AAABAAEAAAA=")
 tile_set = ExtResource("1_xi31o")
 script = ExtResource("2_320mp")
 
@@ -77,6 +77,61 @@ offset_right = -219.0
 offset_bottom = -139.0
 
 [node name="pincho1" parent="." unique_id=1294639556 instance=ExtResource("6_kd3qp")]
-position = Vector2(114.000015, -79)
+position = Vector2(119.999985, -78)
 rotation = -1.5830137
-scale = Vector2(0.5, 0.5)
+scale = Vector2(0.7, 0.7)
+
+[node name="pincho2" parent="." unique_id=630332872 instance=ExtResource("6_kd3qp")]
+position = Vector2(119.99999, -62)
+rotation = -1.5830137
+scale = Vector2(0.7, 0.7)
+
+[node name="pincho3" parent="." unique_id=1796101141 instance=ExtResource("6_kd3qp")]
+position = Vector2(71.99999, -19)
+rotation = 1.5830137
+scale = Vector2(0.7, 0.7)
+
+[node name="pincho4" parent="." unique_id=236406713 instance=ExtResource("6_kd3qp")]
+position = Vector2(72, -2.999998)
+rotation = 1.5830137
+scale = Vector2(0.7, 0.7)
+
+[node name="pincho5" parent="." unique_id=29998793 instance=ExtResource("6_kd3qp")]
+position = Vector2(71.99999, 61.000008)
+rotation = 1.5830137
+scale = Vector2(0.7, 0.7)
+
+[node name="pincho6" parent="." unique_id=2132874316 instance=ExtResource("6_kd3qp")]
+position = Vector2(72, 77)
+rotation = 1.5830137
+scale = Vector2(0.7, 0.7)
+
+[node name="pincho7" parent="." unique_id=1277403943 instance=ExtResource("6_kd3qp")]
+position = Vector2(72, 93)
+rotation = 1.5830137
+scale = Vector2(0.7, 0.7)
+
+[node name="pincho8" parent="." unique_id=1867157933 instance=ExtResource("6_kd3qp")]
+position = Vector2(119.99999, 1.9999999)
+rotation = -1.5830137
+scale = Vector2(0.7, 0.7)
+
+[node name="pincho9" parent="." unique_id=1455926285 instance=ExtResource("6_kd3qp")]
+position = Vector2(120, 18)
+rotation = -1.5830137
+scale = Vector2(0.7, 0.7)
+
+[node name="pincho10" parent="." unique_id=1603122499 instance=ExtResource("6_kd3qp")]
+position = Vector2(119.99999, 34)
+rotation = -1.5830137
+scale = Vector2(0.7, 0.7)
+
+[node name="pincho11" parent="." unique_id=1725787085 instance=ExtResource("6_kd3qp")]
+position = Vector2(119.999985, 98.000015)
+rotation = -1.5830137
+scale = Vector2(0.7, 0.7)
+
+[node name="pincho12" parent="." unique_id=875546316 instance=ExtResource("6_kd3qp")]
+position = Vector2(119.99999, 112.999985)
+rotation = -1.5830137
+scale = Vector2(0.7, 0.7)

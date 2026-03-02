@@ -1,5 +1,4 @@
-res://nivel_1.tscn
+res://escenas/pinchos.tscn
 res://tile_set/nivel_1.tres
 res://nivel_1.gdshader
-res://escenas/control.tscn
-res://Scripts/contador.gd
+res://nivel_1.tscn
