@@ -2,6 +2,7 @@
 
 [ext_resource type="Script" uid="uid://cr6ulwydd3tsw" path="res://Scripts/menu_muerte.gd" id="1_3nrgf"]
 [ext_resource type="Texture2D" uid="uid://mlwjsdju35ro" path="res://imagenes/Dark Gothic Castle.png" id="1_fkam3"]
+[ext_resource type="AudioStream" uid="uid://bhree36qee5fi" path="res://musica/653436__mrthenoronha__8-bit-game-over.wav" id="3_xwc6v"]
 
 [sub_resource type="FontVariation" id="FontVariation_fkam3"]
 
@@ -79,6 +80,10 @@ theme_override_colors/font_color = Color(1, 0, 0, 1)
 theme_override_fonts/font = SubResource("FontVariation_fkam3")
 theme_override_font_sizes/font_size = 88
 text = "You are dead"
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=1561735977]
+stream = ExtResource("3_xwc6v")
+autoplay = true
 
 [connection signal="pressed" from="VBoxContainer/Retry" to="." method="_on_retry_pressed"]
 [connection signal="pressed" from="VBoxContainer/Button2" to="." method="_on_button_2_pressed"]

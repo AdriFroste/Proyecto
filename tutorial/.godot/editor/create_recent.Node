@@ -1,6 +1,7 @@
+AudioStreamPlayer
+TileMapLayer
 CollisionShape2D
 Area2D
-TileMapLayer
 Label
 TextEdit
 Button
@@ -11,4 +12,3 @@ Panel
 StaticBody2D
 Sprite2D
 TileMap
-AnimatedSprite2D
