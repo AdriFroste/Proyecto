@@ -16,8 +16,8 @@ bordes.tscn::PackedScene::2646740205140901135::1768996634::0::1::::<><><>0<>0<><
 ::res://escenas/Escena_Principal/::1769073955
 escena_principal.gdshader::Shader::5945736788011075573::1768996634::0::1::::<><><>0<>0<><>::
 escena_principal.tscn::PackedScene::152217467330168200::1769073955::0::1::::<><><>0<>0<><>::uid://daw6putulrjs5::::res://escenas/Nivel_1/nivel_1.tscn
-::res://escenas/Menu_Principal/::1768996741
-menu.tscn::PackedScene::4763407833937896593::1768996741::0::1::::<><><>0<>0<><>::uid://dqfia8pf6jypt::::res://Scripts/menu.gd<>uid://d3ixv4gykfhr2::::res://imagenes/menufondo.jpg
+::res://escenas/Menu_Principal/::1774439608
+menu.tscn::PackedScene::4763407833937896593::1774439608::0::1::::<><><>0<>0<><>::uid://dqfia8pf6jypt::::res://Scripts/menu.gd<>uid://d3ixv4gykfhr2::::res://imagenes/menufondo.jpg<>uid://5js7k4xbuk7a::::res://musica/Gwyn, Lord of Cinder.mp3
 ::res://escenas/Nivel_1/::1769073396
 nivel_1.tscn::PackedScene::7206588456095326238::1769073396::0::1::::<><><>0<>0<><>::uid://bdydoox7x6h3t::::res://escenas/bordes/bordes.tscn<>uid://cdipgntmw0r7q::::res://tile_set/nivel_1.tres<>uid://ce4oasphbufhe::::res://escenas/personaje/personaje.tscn
 ::res://escenas/personaje/::1770725664
@@ -41,7 +41,8 @@ maxresdefault.jpg::CompressedTexture2D::8909062320675808106::1771580683::1771837
 menufondo.jpg::CompressedTexture2D::9142500221032319041::1768996634::1768996666::1::::<><><>0<>0<>2bb2fb3432bb50ba7da90046d0a61349<>res://.godot/imported/menufondo.jpg-ebe417d3ae610fb59422285c4c59da27.ctex::
 mia kañlfia.jpeg::CompressedTexture2D::6326560984018729370::1771579216::1771837946::1::::<><><>0<>0<>37950c16f0cdcbb8d61ee9648a0c62d5<>res://.godot/imported/mia kañlfia.jpeg-22fef803c1c64930b1b04b94bf79e006.ctex::
 torrente-presidente.jpg::CompressedTexture2D::8636404777117617581::1773825302::1773835133::1::::<><><>0<>0<>a13353bd2e4fd5f9c92a309cf0e807e1<>res://.godot/imported/torrente-presidente.jpg-4c70d173b21ef327f49521d134a1d66d.ctex::
-::res://musica/::1774439520
+::res://musica/::1774440689
+030. Undyne (UNDERTALE Soundtrack) - Toby Fox.mp3::AudioStreamMP3::4075387889822028420::1774440579::1774440866::1::::<><><>0<>0<>7a3479f02464e989bd7d9f0cd70f8510<>res://.godot/imported/030. Undyne (UNDERTALE Soundtrack) - Toby Fox.mp3-880cc144dbd772968a619f596e6246df.mp3str::
 178126__zagi2__game-over.wav::AudioStreamWAV::3465505021168429660::1774439152::1774439193::1::::<><><>0<>0<>20d0692b6104b9ba13243063bf58f1a3<>res://.godot/imported/178126__zagi2__game-over.wav-508641d0613001eacf6cda820ff6e2e5.sample::
 653436__mrthenoronha__8-bit-game-over.wav::AudioStreamWAV::2913088541400274506::1774439284::1774439289::1::::<><><>0<>0<>bba1e228d6b9bb1a7df3444c1edcf8c3<>res://.godot/imported/653436__mrthenoronha__8-bit-game-over.wav-1bd79b88b7db3e9be9885e0c1f385fd0.sample::
 Gwyn, Lord of Cinder.mp3::AudioStreamMP3::2125395331282241848::1774439499::1774439579::1::::<><><>0<>0<>dbd1279a1be1ea66e370231685542816<>res://.godot/imported/Gwyn, Lord of Cinder.mp3-8bdc117cb0717aef5f74b2075c759d03.mp3str::

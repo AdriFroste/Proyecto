@@ -6,6 +6,7 @@
 [ext_resource type="Shader" uid="uid://byp0no5r7dfop" path="res://nivel_1.gdshader" id="3_2lask"]
 [ext_resource type="PackedScene" uid="uid://dtlniwj68kfg1" path="res://escenas/control.tscn" id="4_m2gv8"]
 [ext_resource type="PackedScene" uid="uid://c68amydaai3ec" path="res://escenas/pinchos.tscn" id="6_kd3qp"]
+[ext_resource type="AudioStream" uid="uid://bycfbp362x4yy" path="res://musica/030. Undyne (UNDERTALE Soundtrack) - Toby Fox.mp3" id="7_6epq6"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_m2gv8"]
 shader = ExtResource("3_2lask")
@@ -136,3 +137,7 @@ scale = Vector2(0.7, 0.7)
 position = Vector2(119.99999, 112.999985)
 rotation = -1.5830137
 scale = Vector2(0.7, 0.7)
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=434273191]
+stream = ExtResource("7_6epq6")
+autoplay = true
