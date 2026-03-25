@@ -1,7 +1,8 @@
-[gd_scene load_steps=7 format=3 uid="uid://b84ovpscc0b8d"]
+[gd_scene format=3 uid="uid://b84ovpscc0b8d"]
 
 [ext_resource type="Script" uid="uid://dqfia8pf6jypt" path="res://Scripts/menu.gd" id="1_xhh6f"]
 [ext_resource type="Texture2D" uid="uid://d3ixv4gykfhr2" path="res://imagenes/menufondo.jpg" id="2_k0dy6"]
+[ext_resource type="AudioStream" uid="uid://5js7k4xbuk7a" path="res://musica/Gwyn, Lord of Cinder.mp3" id="3_35p2g"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_xhh6f"]
 bg_color = Color(0, 0.6948089, 0.62507004, 1)
@@ -15,7 +16,7 @@ bg_color = Color(0, 0.69411767, 0.62352943, 1)
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_wbdvm"]
 bg_color = Color(1, 0.30588236, 0.48235294, 1)
 
-[node name="Menu" type="Control"]
+[node name="Menu" type="Control" unique_id=1927185891]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -24,7 +25,7 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_xhh6f")
 
-[node name="ColorRect" type="ColorRect" parent="."]
+[node name="ColorRect" type="ColorRect" parent="." unique_id=939829527]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -33,7 +34,7 @@ grow_horizontal = 2
 grow_vertical = 2
 color = Color(0, 0, 0.27450982, 1)
 
-[node name="TextureRect" type="TextureRect" parent="."]
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1043619429]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -46,7 +47,7 @@ grow_vertical = 2
 texture = ExtResource("2_k0dy6")
 expand_mode = 1
 
-[node name="VBoxContainer" type="VBoxContainer" parent="."]
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=1221227786]
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
@@ -61,7 +62,7 @@ grow_horizontal = 2
 grow_vertical = 2
 theme_override_constants/separation = 22
 
-[node name="Play" type="Button" parent="VBoxContainer"]
+[node name="Play" type="Button" parent="VBoxContainer" unique_id=1542998837]
 layout_mode = 2
 size_flags_horizontal = 4
 size_flags_vertical = 8
@@ -70,12 +71,16 @@ theme_override_styles/normal = SubResource("StyleBoxFlat_xhh6f")
 theme_override_styles/hover = SubResource("StyleBoxFlat_cayip")
 text = "JUGAR"
 
-[node name="Quit" type="Button" parent="VBoxContainer"]
+[node name="Quit" type="Button" parent="VBoxContainer" unique_id=127781378]
 layout_mode = 2
 theme_override_font_sizes/font_size = 50
 theme_override_styles/normal = SubResource("StyleBoxFlat_jsrd8")
 theme_override_styles/hover = SubResource("StyleBoxFlat_wbdvm")
 text = "SALIR"
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=2101052134]
+stream = ExtResource("3_35p2g")
+autoplay = true
 
 [connection signal="pressed" from="VBoxContainer/Play" to="." method="_on_play_pressed"]
 [connection signal="pressed" from="VBoxContainer/Quit" to="." method="_on_quit_pressed"]

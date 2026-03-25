@@ -1,3 +1,4 @@
 res://escenas/menu muerte.tscn
 res://tile_set/nivel_1.tres
 res://nivel_1.gdshader
+res://escenas/Menu_Principal/menu.tscn

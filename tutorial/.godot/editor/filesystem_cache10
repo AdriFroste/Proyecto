@@ -1,14 +1,14 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1774439310
+::res://::1774439520
 icon.svg::CompressedTexture2D::3596759946226483595::1768996634::1768996666::1::::<><><>0<>0<>d4c473c2969ed7a60c1c977a8100f866<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-nivel_1.gdshader::Shader::4103460519943023799::1774439196::0::1::::<><><>0<>0<><>::
+nivel_1.gdshader::Shader::4103460519943023799::1774439339::0::1::::<><><>0<>0<><>::
 nivel_1.tscn::PackedScene::667068343339008317::1773048135::0::1::::<><><>0<>0<><>::uid://cdipgntmw0r7q::::res://tile_set/nivel_1.tres<>uid://cffc5j0socnbh::::res://Scripts/pinchitos tile.gd<>uid://ce4oasphbufhe::::res://escenas/personaje/personaje.tscn<>uid://byp0no5r7dfop::::res://nivel_1.gdshader<>uid://dtlniwj68kfg1::::res://escenas/control.tscn<>uid://c68amydaai3ec::::res://escenas/pinchos.tscn
 nivel_3.tscn::PackedScene::5860058503705887293::1770203928::0::1::::<><><>0<>0<><>::uid://cdipgntmw0r7q::::res://tile_set/nivel_1.tres<>uid://ce4oasphbufhe::::res://escenas/personaje/personaje.tscn
 nivel_5.tscn::PackedScene::2724584729324429314::1774439238::0::1::::<><><>0<>0<><>::uid://cdipgntmw0r7q::::res://tile_set/nivel_1.tres<>uid://ce4oasphbufhe::::res://escenas/personaje/personaje.tscn<>uid://bpmymj002qmp5::::res://musica/178126__zagi2__game-over.wav
-::res://escenas/::1772445002
+::res://escenas/::1774439373
 control.tscn::PackedScene::8516363013623718394::1772021324::0::1::::<><><>0<>0<><>::uid://d2dp764wpisoy::::res://Scripts/contador.gd
 Efecto_Ctr.gdshader::Shader::3486517826106335325::1768996634::0::1::::<><><>0<>0<><>::
-menu muerte.tscn::PackedScene::1311581982011841525::1772019339::0::1::::<><><>0<>0<><>::uid://cr6ulwydd3tsw::::res://Scripts/menu_muerte.gd<>uid://mlwjsdju35ro::::res://imagenes/Dark Gothic Castle.png
+menu muerte.tscn::PackedScene::1311581982011841525::1774439373::0::1::::<><><>0<>0<><>::uid://cr6ulwydd3tsw::::res://Scripts/menu_muerte.gd<>uid://mlwjsdju35ro::::res://imagenes/Dark Gothic Castle.png<>uid://bhree36qee5fi::::res://musica/653436__mrthenoronha__8-bit-game-over.wav
 nivel_4.tscn::PackedScene::4787755733191283768::1770725900::0::1::::<><><>0<>0<><>::uid://cdipgntmw0r7q::::res://tile_set/nivel_1.tres<>uid://ce4oasphbufhe::::res://escenas/personaje/personaje.tscn<>uid://c68amydaai3ec::::res://escenas/pinchos.tscn
 pinchos.tscn::PackedScene::7016842680771201018::1772445002::0::1::::<><><>0<>0<><>::uid://dvfypfuph7b4x::::res://sprites/pinchos  funcionales.png<>uid://bg17rj3qi758n::::res://Scripts/Pinchos.gd
 ::res://escenas/bordes/::1768996634
@@ -41,9 +41,10 @@ maxresdefault.jpg::CompressedTexture2D::8909062320675808106::1771580683::1771837
 menufondo.jpg::CompressedTexture2D::9142500221032319041::1768996634::1768996666::1::::<><><>0<>0<>2bb2fb3432bb50ba7da90046d0a61349<>res://.godot/imported/menufondo.jpg-ebe417d3ae610fb59422285c4c59da27.ctex::
 mia kañlfia.jpeg::CompressedTexture2D::6326560984018729370::1771579216::1771837946::1::::<><><>0<>0<>37950c16f0cdcbb8d61ee9648a0c62d5<>res://.godot/imported/mia kañlfia.jpeg-22fef803c1c64930b1b04b94bf79e006.ctex::
 torrente-presidente.jpg::CompressedTexture2D::8636404777117617581::1773825302::1773835133::1::::<><><>0<>0<>a13353bd2e4fd5f9c92a309cf0e807e1<>res://.godot/imported/torrente-presidente.jpg-4c70d173b21ef327f49521d134a1d66d.ctex::
-::res://musica/::1774439289
+::res://musica/::1774439520
 178126__zagi2__game-over.wav::AudioStreamWAV::3465505021168429660::1774439152::1774439193::1::::<><><>0<>0<>20d0692b6104b9ba13243063bf58f1a3<>res://.godot/imported/178126__zagi2__game-over.wav-508641d0613001eacf6cda820ff6e2e5.sample::
 653436__mrthenoronha__8-bit-game-over.wav::AudioStreamWAV::2913088541400274506::1774439284::1774439289::1::::<><><>0<>0<>bba1e228d6b9bb1a7df3444c1edcf8c3<>res://.godot/imported/653436__mrthenoronha__8-bit-game-over.wav-1bd79b88b7db3e9be9885e0c1f385fd0.sample::
+Gwyn, Lord of Cinder.mp3::AudioStreamMP3::2125395331282241848::1774439499::1774439579::1::::<><><>0<>0<>dbd1279a1be1ea66e370231685542816<>res://.godot/imported/Gwyn, Lord of Cinder.mp3-8bdc117cb0717aef5f74b2075c759d03.mp3str::
 musica.wav::AudioStreamWAV::6086664848865898542::1768996634::1768996667::1::::<><><>0<>0<>6fa8446df91927a22693af5274de64c1<>res://.godot/imported/musica.wav-1272e54906429fa145d9d27195220d30.sample::
 ::res://Scripts/::1772021324
 contador.gd::GDScript::9061523536907953132::1772021324::0::1::::<>Panel<><>0<>0<><>::
@@ -131,6 +132,6 @@ run-04.png::CompressedTexture2D::2776055148432389035::1558882096::1771412382::1:
 run-05.png::CompressedTexture2D::2393222812044196071::1558882094::1771412382::1::::<><><>0<>0<>7d21d7c8c69341d81bbbdc7ba64dd0d6<>res://.godot/imported/run-05.png-6e130bf1cc34670b3c706bbbd37c2814.ctex::
 run-06.png::CompressedTexture2D::420769540163844627::1558882092::1771412382::1::::<><><>0<>0<>0aeecc16a45dc854abf17996369d5229<>res://.godot/imported/run-06.png-5b1e77c2d07fdfe12d6ef5ef0a02a6af.ctex::
 run-07.png::CompressedTexture2D::1161826023606524686::1558882088::1771412382::1::::<><><>0<>0<>900166b30cc03fc3a840cec74c5a4094<>res://.godot/imported/run-07.png-dc78193b0f80670d7a218c12e813389e.ctex::
-::res://tile_set/::1774439196
-nivel_1.tres::TileSet::5000845102718167420::1774439196::0::1::::<><><>0<>0<><>::uid://47o35pl1b7ou::::res://sprites/tileset_mazmorra.png
+::res://tile_set/::1774439339
+nivel_1.tres::TileSet::5000845102718167420::1774439339::0::1::::<><><>0<>0<><>::uid://47o35pl1b7ou::::res://sprites/tileset_mazmorra.png
 Pinchos.tres::TileSet::3249110593262512961::1769600489::0::1::::<><><>0<>0<><>::
