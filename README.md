@@ -1,4 +1,4 @@
-# 🗼 Ascend Tower
+# ♖ Ascend Tower
 
 
 **Ascend Tower** es un plataformas de precisión 2D hecho en Godot Engine. Controlas a un protagonista que cae atrapado en el nivel más bajo de una torre legendaria y debe escalarla entera para escapar — piso a piso, trampa a trampa.
