@@ -1,0 +1,47 @@
+[gd_scene format=3 uid="uid://cfubpa3vo53ev"]
+
+[ext_resource type="Script" uid="uid://bfu2mjuc1r56c" path="res://escenas/trampa/trampa_2.gd" id="1_pv3xe"]
+[ext_resource type="Texture2D" uid="uid://47o35pl1b7ou" path="res://sprites/tileset_mazmorra.png" id="2_yfrx3"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_x47gh"]
+atlas = ExtResource("2_yfrx3")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_we6vm"]
+size = Vector2(16, 16)
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_pv3xe"]
+particle_flag_disable_z = true
+direction = Vector3(1, 1, 0)
+initial_velocity_min = 50.0
+initial_velocity_max = 100.0
+gravity = Vector3(0, 98, 0)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_yfrx3"]
+size = Vector2(18, 18)
+
+[node name="Trampa" type="StaticBody2D" unique_id=580911970]
+modulate = Color(0.86094797, 0.5166041, 3.85046e-07, 1)
+collision_mask = 5
+script = ExtResource("1_pv3xe")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1641501409]
+texture = SubResource("AtlasTexture_x47gh")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=755170651]
+shape = SubResource("RectangleShape2D_we6vm")
+
+[node name="GPUParticles2D" type="GPUParticles2D" parent="." unique_id=1537868750]
+emitting = false
+amount = 20
+lifetime = 0.5
+one_shot = true
+explosiveness = 0.8
+process_material = SubResource("ParticleProcessMaterial_pv3xe")
+
+[node name="Area2D" type="Area2D" parent="." unique_id=60383829]
+collision_layer = 2
+collision_mask = 4
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=364692168]
+shape = SubResource("RectangleShape2D_yfrx3")

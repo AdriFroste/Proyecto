@@ -1,0 +1,44 @@
+[gd_scene load_steps=4 format=3 uid="uid://dcu0n3gyc4ipg"]
+
+[ext_resource type="Script" uid="uid://csccyv1du28k1" path="res://label.gd" id="1_7n6gn"]
+[ext_resource type="Script" uid="uid://b21s2emcp63j6" path="res://contador_muertes.gd" id="1_qy7xt"]
+[ext_resource type="Theme" uid="uid://dn66h5bqjpj6r" path="res://temas/interfaz_in_game.tres" id="2_ptsju"]
+
+[node name="ContadorMuertes" type="Control" node_paths=PackedStringArray("label")]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = -1908.0
+offset_bottom = -944.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_qy7xt")
+label = NodePath("HBoxContainer/valor")
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 37.5
+offset_top = 3.0
+offset_right = 120.5
+offset_bottom = 43.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(2, 2)
+
+[node name="Titulo" type="Label" parent="HBoxContainer"]
+layout_mode = 2
+theme = ExtResource("2_ptsju")
+text = "Muertes:"
+script = ExtResource("1_7n6gn")
+
+[node name="valor" type="Label" parent="HBoxContainer"]
+layout_mode = 2
+theme = ExtResource("2_ptsju")
+text = "0"
+script = ExtResource("1_7n6gn")

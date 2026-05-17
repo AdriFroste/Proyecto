@@ -1,0 +1,6 @@
+res://escenas/final/final.tscn
+res://tile_set/nivel_1.tres
+res://shaders/shader_rojo.tres
+res://escenas/Escena_Principal/escena_principal.gdshader
+res://escenas/Efecto_Ctr.gdshader
+res://inicio.tscn

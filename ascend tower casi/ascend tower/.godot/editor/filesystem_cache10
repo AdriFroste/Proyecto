@@ -1,0 +1,142 @@
+63f7b34db8d8cdea90c76aacccf841ec
+::res://::1778685218
+borrar_mas_tarde.tscn::PackedScene::5059175282494142485::1778628990::0::1::::<><><>0<>0<><>::uid://bdydoox7x6h3t::::res://escenas/bordes/bordes.tscn<>uid://cdipgntmw0r7q::::res://tile_set/nivel_1.tres<>uid://dace3a4kohhlw::::res://escenas/personaje/personaje_2.tscn
+contador_muertes.gd::GDScript::4336334634573978729::1778628990::0::1::::<>Control<><>0<>0<><>::
+contador_muertes.tscn::PackedScene::7342469914593391660::1778628990::0::1::::<><><>0<>0<><>::uid://csccyv1du28k1::::res://label.gd<>uid://b21s2emcp63j6::::res://contador_muertes.gd<>uid://dn66h5bqjpj6r::::res://temas/interfaz_in_game.tres
+default_bus_layout.tres::AudioBusLayout::8031135271868673141::1778628990::0::1::::<><><>0<>0<><>::
+fondo1.jpg::CompressedTexture2D::6276473417556999523::1778628990::1778628990::1::::<><><>0<>0<>895b52d18b7edef80525719232e86828<>res://.godot/imported/fondo1.jpg-21b69477d6ee9deb43d5de1fe10b0275.ctex::
+fondo2.jpg::CompressedTexture2D::3493312018272581635::1778628990::1778628990::1::::<><><>0<>0<>18b23655ae0425a7b3bfb66754ee23db<>res://.godot/imported/fondo2.jpg-185a8b49097402a19ddbd14b98080b56.ctex::
+fondo3.jpg::CompressedTexture2D::1011638425510002021::1778628990::1778628990::1::::<><><>0<>0<>fa65c7142628026289e980376f19f220<>res://.godot/imported/fondo3.jpg-f911048af6dd8bf94f610e4a3a7cb4f9.ctex::
+fondo prueba.jpg::CompressedTexture2D::7295376762244851364::1778628990::1778628990::1::::<><><>0<>0<>19f6717ebefd57768d3512ce70d68f99<>res://.godot/imported/fondo prueba.jpg-89ef37b1c9e40b8dd052ccf2f1f20c99.ctex::
+fondoprueba2.jpg::CompressedTexture2D::8847311539968747314::1778628990::1778628990::1::::<><><>0<>0<>ae2f39fc0abe45d79c7fd245ef5d8d2b<>res://.godot/imported/fondoprueba2.jpg-caa23d1ba27782767e16f8678cd68519.ctex::
+fondoprueba3.jpg::CompressedTexture2D::4379324751783462099::1778628990::1778628990::1::::<><><>0<>0<>d9d7e9a989881e6efed1254d54af1956<>res://.godot/imported/fondoprueba3.jpg-d0e9ac781c3729c045473612590cec4f.ctex::
+fondoprueba4.jpg::CompressedTexture2D::4286049900783540957::1778628990::1778628990::1::::<><><>0<>0<>7c6dc666a2a9c6199c078a25067f1909<>res://.godot/imported/fondoprueba4.jpg-c64e584eb9e1ec948e027b596bdb3bcf.ctex::
+fondoprueba5.jpg::CompressedTexture2D::4953500108675682322::1778628990::1778628990::1::::<><><>0<>0<>4c1b54f320b872f742c919751b65591e<>res://.godot/imported/fondoprueba5.jpg-c90c9cef0f716b43ee5c9240bab5cdf6.ctex::
+fondoprueba6.jpg::CompressedTexture2D::4900108144730465582::1778628990::1778628990::1::::<><><>0<>0<>0dbbb610cb16b8ef470460a1f1da5481<>res://.godot/imported/fondoprueba6.jpg-8847111fd9497f3615e9815e94359f77.ctex::
+icon.svg::CompressedTexture2D::3596759946226483595::1778628990::1778628990::1::::<><><>0<>0<>d4c473c2969ed7a60c1c977a8100f866<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+inicio.tscn::PackedScene::7046451065797331604::1778628990::0::1::::<><><>0<>0<><>::uid://bdydoox7x6h3t::::res://escenas/bordes/bordes.tscn<>uid://cdipgntmw0r7q::::res://tile_set/nivel_1.tres<>uid://bytyq6qof46d5::::res://escenas/plataforma/plataforma.tscn<>uid://xywnkaw3fuc5::::res://sprites/FreeCuteTileset/BG1.png<>uid://dl5oruip131x::::res://sprites/FreeCuteTileset/BG2.png<>uid://cfhcagjgvb4xm::::res://sprites/FreeCuteTileset/BG3.png<>uid://dgvin3c4cn0f::::res://sprites/FreeCuteTileset/Decors.png<>uid://ce4oasphbufhe::::res://escenas/personaje/personaje.tscn<>uid://ck7a4p4nk1u1k::::res://escenas/ContenedorMonedas/contenedor_monedas.tscn<>uid://dnh7xrh0gao44::::res://escenas/moneda/moneda.tscn
+label.gd::GDScript::6040534744737555562::1778628990::0::1::::<>Label<><>0<>0<><>::
+nivel_prueba.tscn::PackedScene::4879927178072155994::1778628990::0::1::::<><><>0<>0<><>::uid://bdydoox7x6h3t::::res://escenas/bordes/bordes.tscn<>uid://cdipgntmw0r7q::::res://tile_set/nivel_1.tres<>uid://ce4oasphbufhe::::res://escenas/personaje/personaje.tscn<>uid://cqyfofe6150qb::::res://escenas/Escena_Principal/escena_principal.gdshader
+saw3.gd::GDScript::3839765990482558324::1778628990::0::1::::<>Area2D<><>0<>0<><>::
+saw_2.gd::GDScript::4830486643564429226::1778628990::0::1::::<>CharacterBody2D<><>0<>0<><>::
+saw_4_derecha_2.gd::GDScript::8550675846084350466::1778628990::0::1::::<>CharacterBody2D<><>0<>0<><>::
+sierra_cuadrado.gd::GDScript::8156464766527204176::1778628990::0::1::::<>CharacterBody2D<><>0<>0<><>::
+::res://escenas/::1778685234
+Efecto_Ctr.gdshader::Shader::3486517826106335325::1778628994::0::1::::<><><>0<>0<><>::
+nivel_3.tscn::PackedScene::2685598889292394216::1778628994::0::1::::<><><>0<>0<><>::uid://bdydoox7x6h3t::::res://escenas/bordes/bordes.tscn<>uid://cdipgntmw0r7q::::res://tile_set/nivel_1.tres<>uid://ce4oasphbufhe::::res://escenas/personaje/personaje.tscn<>uid://pnlw6u86t8i::::res://escenas/nivel_2_ex/camera_2d.gd<>uid://ck7a4p4nk1u1k::::res://escenas/ContenedorMonedas/contenedor_monedas.tscn<>uid://dnh7xrh0gao44::::res://escenas/moneda/moneda.tscn<>uid://cqyfofe6150qb::::res://escenas/Escena_Principal/escena_principal.gdshader<>uid://c2ubpjig0gkgx::::res://escenas/sierra_3/sierra_3.tscn
+::res://escenas/bordes/::1778685258
+bordes.tscn::PackedScene::2646740205140901135::1778628994::0::1::::<><><>0<>0<><>::uid://47o35pl1b7ou::::res://sprites/tileset_mazmorra.png
+::res://escenas/ContenedorMonedas/::1778685252
+contenedor_monedas.gd::GDScript::8049863489705193062::1778628994::0::1::::ContenedorMonedas<>Node<><>0<>0<><>::
+contenedor_monedas.tscn::PackedScene::5540842513174330782::1778628994::0::1::::<><><>0<>0<><>::uid://dmxoctmoquoy5::::res://escenas/ContenedorMonedas/contenedor_monedas.gd
+::res://escenas/escena_final/::1778685252
+escena_final.tscn::PackedScene::6514523897591381720::1778628994::0::1::::<><><>0<>0<><>::
+::res://escenas/Escena_Principal/::1778685258
+escena_principal.gd::GDScript::1284432562827918027::1778628994::0::1::::<>Node2D<><>0<>0<><>::
+escena_principal.gdshader::Shader::5945736788011075573::1778628994::0::1::::<><><>0<>0<><>::
+escena_principal.tscn::PackedScene::152217467330168200::1778628994::0::1::::<><><>0<>0<><>::uid://skgofwc3sw4j::::res://escenas/Escena_Principal/escena_principal.gd<>uid://c7nmawutd1t8g::::res://inicio.tscn<>uid://br74e1c8juv2v::::res://escenas/nivel_0_ex/nivel_0_ex.tscn<>uid://dby2fncamynj6::::res://escenas/nivel_0/nivel_0.tscn<>uid://ds51ce5h7g4e0::::res://escenas/Nive_1_Ex/nivel_1_ex.tscn<>uid://daw6putulrjs5::::res://escenas/Nivel_1/nivel_1.tscn<>uid://dxgs36kpmhovk::::res://escenas/nivel_2_ex/nivel_2_ex.tscn<>uid://b57p8a82bpisn::::res://escenas/nivel_3_ex/nivel_3_ex.tscn<>uid://c56dj7fo8juj6::::res://escenas/nivel_2/nivel_2.tscn<>uid://cxro1jgmnms63::::res://escenas/nivel_4_ex/nivel_4_ex.tscn<>uid://bei6olcgd45ay::::res://escenas/nivel_3.tscn<>uid://dhgbp2jdiyrdo::::res://escenas/nivel_4/nivel_4.tscn<>uid://csyoql15iygaw::::res://musica/musica.wav<>uid://dwqnwvgsq8k7::::res://escenas/nivel5/nivel_5.tscn<>uid://c1ilely3s0wh::::res://escenas/nivel6/nivel_6.tscn<>uid://dcu0n3gyc4ipg::::res://contador_muertes.tscn
+::res://escenas/Menu_Principal/::1778685252
+menu.tscn::PackedScene::4763407833937896593::1778628994::0::1::::<><><>0<>0<><>::uid://dqfia8pf6jypt::::res://Scripts/menu.gd<>uid://d3ixv4gykfhr2::::res://imagenes/menufondo.jpg
+::res://escenas/moneda/::1778685254
+area_2d.gd::GDScript::2641717898867719641::1778628994::0::1::::<>RefCounted<><>0<>0<><>::
+moneda.gd::GDScript::2247537154135562967::1778628994::0::1::::<>Node2D<><>0<>0<><>::
+moneda.tscn::PackedScene::8088152584534986223::1778628994::0::1::::<><><>0<>0<><>::uid://47o35pl1b7ou::::res://sprites/tileset_mazmorra.png<>uid://7ayuxq2y7uix::::res://escenas/moneda/moneda.gd<>uid://c31k8lrprp1m7::::res://sonidos/sonido_moneda.wav<>uid://de0ibftu5we8e::::res://escenas/moneda/reproductor_sonido_moneda.gd
+reproductor_sonido_moneda.gd::GDScript::7492114684136667334::1778628994::0::1::::<>AudioStreamPlayer2D<><>0<>0<><>::
+::res://escenas/nivel5/::1778685252
+nivel_5.tscn::PackedScene::256978716960369176::1778628994::0::1::::<><><>0<>0<><>::uid://bdydoox7x6h3t::::res://escenas/bordes/bordes.tscn<>uid://cdipgntmw0r7q::::res://tile_set/nivel_1.tres<>uid://cfubpa3vo53ev::::res://escenas/trampa/trampa2.tscn<>uid://c2ubpjig0gkgx::::res://escenas/sierra_3/sierra_3.tscn<>uid://ce4oasphbufhe::::res://escenas/personaje/personaje.tscn<>uid://pnlw6u86t8i::::res://escenas/nivel_2_ex/camera_2d.gd<>uid://ck7a4p4nk1u1k::::res://escenas/ContenedorMonedas/contenedor_monedas.tscn<>uid://dnh7xrh0gao44::::res://escenas/moneda/moneda.tscn<>uid://cqyfofe6150qb::::res://escenas/Escena_Principal/escena_principal.gdshader
+::res://escenas/nivel6/::1778685254
+nivel_6.tscn::PackedScene::194557116771558375::1778628994::0::1::::<><><>0<>0<><>::uid://bdydoox7x6h3t::::res://escenas/bordes/bordes.tscn<>uid://cdipgntmw0r7q::::res://tile_set/nivel_1.tres<>uid://c2ubpjig0gkgx::::res://escenas/sierra_3/sierra_3.tscn<>uid://ce4oasphbufhe::::res://escenas/personaje/personaje.tscn<>uid://ck7a4p4nk1u1k::::res://escenas/ContenedorMonedas/contenedor_monedas.tscn<>uid://dnh7xrh0gao44::::res://escenas/moneda/moneda.tscn<>uid://cqyfofe6150qb::::res://escenas/Escena_Principal/escena_principal.gdshader<>uid://cfubpa3vo53ev::::res://escenas/trampa/trampa2.tscn
+::res://escenas/nivel_0/::1778685242
+nivel_0.tscn::PackedScene::7280644934499144581::1778628994::0::1::::<><><>0<>0<><>::uid://bdydoox7x6h3t::::res://escenas/bordes/bordes.tscn<>uid://cdipgntmw0r7q::::res://tile_set/nivel_1.tres<>uid://ce4oasphbufhe::::res://escenas/personaje/personaje.tscn<>uid://cqyfofe6150qb::::res://escenas/Escena_Principal/escena_principal.gdshader<>uid://ck7a4p4nk1u1k::::res://escenas/ContenedorMonedas/contenedor_monedas.tscn<>uid://dnh7xrh0gao44::::res://escenas/moneda/moneda.tscn
+::res://escenas/nivel_0_ex/::1778685240
+camera_2d.gd::GDScript::98463420437626781::1778628994::0::1::::<>Camera2D<><>0<>0<><>::
+checkpoint.gd::GDScript::968282580541371250::1778628994::0::1::::<>Area2D<><>0<>0<><>::
+nivel_0_ex.tscn::PackedScene::3647460419844331343::1778628994::0::1::::<><><>0<>0<><>::uid://bdydoox7x6h3t::::res://escenas/bordes/bordes.tscn<>uid://cdipgntmw0r7q::::res://tile_set/nivel_1.tres<>uid://ce4oasphbufhe::::res://escenas/personaje/personaje.tscn<>uid://cqyfofe6150qb::::res://escenas/Escena_Principal/escena_principal.gdshader<>uid://ck7a4p4nk1u1k::::res://escenas/ContenedorMonedas/contenedor_monedas.tscn<>uid://dnh7xrh0gao44::::res://escenas/moneda/moneda.tscn<>uid://bnxxb6722lmr::::res://escenas/nivel_0_ex/camera_2d.gd<>uid://n2bqcmnm1rdy::::res://escenas/nivel_0_ex/checkpoint.gd
+::res://escenas/Nivel_1/::1778685242
+nivel_1.tscn::PackedScene::7206588456095326238::1778628994::0::1::::<><><>0<>0<><>::uid://bdydoox7x6h3t::::res://escenas/bordes/bordes.tscn<>uid://cdipgntmw0r7q::::res://tile_set/nivel_1.tres<>uid://ce4oasphbufhe::::res://escenas/personaje/personaje.tscn<>uid://dnh7xrh0gao44::::res://escenas/moneda/moneda.tscn<>uid://ck7a4p4nk1u1k::::res://escenas/ContenedorMonedas/contenedor_monedas.tscn<>uid://cqyfofe6150qb::::res://escenas/Escena_Principal/escena_principal.gdshader
+::res://escenas/nivel_2/::1778685240
+nivel_2.tscn::PackedScene::6942702299178269049::1778628994::0::1::::<><><>0<>0<><>::uid://bdydoox7x6h3t::::res://escenas/bordes/bordes.tscn<>uid://cdipgntmw0r7q::::res://tile_set/nivel_1.tres<>uid://ce4oasphbufhe::::res://escenas/personaje/personaje.tscn<>uid://c2ubpjig0gkgx::::res://escenas/sierra_3/sierra_3.tscn<>uid://ck7a4p4nk1u1k::::res://escenas/ContenedorMonedas/contenedor_monedas.tscn<>uid://dnh7xrh0gao44::::res://escenas/moneda/moneda.tscn<>uid://cqyfofe6150qb::::res://escenas/Escena_Principal/escena_principal.gdshader
+::res://escenas/nivel_2_ex/::1778685238
+camera_2d.gd::GDScript::31775835306503678::1778628994::0::1::::<>Camera2D<><>0<>0<><>::
+nivel_2_ex.tscn::PackedScene::8787136273747298148::1778628994::0::1::::<><><>0<>0<><>::uid://bdydoox7x6h3t::::res://escenas/bordes/bordes.tscn<>uid://cdipgntmw0r7q::::res://tile_set/nivel_1.tres<>uid://c2ubpjig0gkgx::::res://escenas/sierra_3/sierra_3.tscn<>uid://ce4oasphbufhe::::res://escenas/personaje/personaje.tscn<>uid://cqyfofe6150qb::::res://escenas/Escena_Principal/escena_principal.gdshader<>uid://oobsi33scg2h::::res://fondo3.jpg<>uid://pnlw6u86t8i::::res://escenas/nivel_2_ex/camera_2d.gd<>uid://ck7a4p4nk1u1k::::res://escenas/ContenedorMonedas/contenedor_monedas.tscn<>uid://dnh7xrh0gao44::::res://escenas/moneda/moneda.tscn
+::res://escenas/nivel_3_ex/::1778685254
+nivel_3_ex.tscn::PackedScene::4559115819261581881::1778628994::0::1::::<><><>0<>0<><>::uid://bdydoox7x6h3t::::res://escenas/bordes/bordes.tscn<>uid://cdipgntmw0r7q::::res://tile_set/nivel_1.tres<>uid://cb2wchn02b1ug::::res://fondoprueba6.jpg<>uid://drr47a1u85s6c::::res://escenas/sierra_ cuadrado/sierra_4.tscn<>uid://ce4oasphbufhe::::res://escenas/personaje/personaje.tscn<>uid://ba0bcj8pjwxi::::res://escenas/sierra_ cuadrado/saw_4_izquierda.tscn<>uid://b16lnfmeoav83::::res://escenas/sierra_ cuadrado/saw_4_derecha.tscn<>uid://cvuhpsse86vnt::::res://escenas/sierra_ cuadrado/saw_4_arriba.tscn<>uid://c2ubpjig0gkgx::::res://escenas/sierra_3/sierra_3.tscn<>uid://cqyfofe6150qb::::res://escenas/Escena_Principal/escena_principal.gdshader<>uid://ck7a4p4nk1u1k::::res://escenas/ContenedorMonedas/contenedor_monedas.tscn<>uid://dnh7xrh0gao44::::res://escenas/moneda/moneda.tscn
+::res://escenas/nivel_4/::1778685238
+nivel_4.tscn::PackedScene::7663059159152882072::1778628994::0::1::::<><><>0<>0<><>::uid://bdydoox7x6h3t::::res://escenas/bordes/bordes.tscn<>uid://cdipgntmw0r7q::::res://tile_set/nivel_1.tres<>uid://ce4oasphbufhe::::res://escenas/personaje/personaje.tscn<>uid://pnlw6u86t8i::::res://escenas/nivel_2_ex/camera_2d.gd<>uid://ck7a4p4nk1u1k::::res://escenas/ContenedorMonedas/contenedor_monedas.tscn<>uid://dnh7xrh0gao44::::res://escenas/moneda/moneda.tscn<>uid://cqyfofe6150qb::::res://escenas/Escena_Principal/escena_principal.gdshader<>uid://c2ubpjig0gkgx::::res://escenas/sierra_3/sierra_3.tscn
+::res://escenas/nivel_4_ex/::1778685238
+camera_4_ex.gd::GDScript::2849566167162763933::1778628994::0::1::::<>Camera2D<><>0<>0<><>::
+nivel_4_ex.tscn::PackedScene::6423176143962289714::1778628994::0::1::::<><><>0<>0<><>::uid://bdydoox7x6h3t::::res://escenas/bordes/bordes.tscn<>uid://cdipgntmw0r7q::::res://tile_set/nivel_1.tres<>uid://bfdbvohj8cyux::::res://escenas/trampa/trampa.tscn<>uid://ce4oasphbufhe::::res://escenas/personaje/personaje.tscn<>uid://osu7cbl1drah::::res://escenas/sierra_ cuadrado/saw_4_derecha_2.tscn<>uid://c2ubpjig0gkgx::::res://escenas/sierra_3/sierra_3.tscn<>uid://bgul653xvrobl::::res://escenas/nivel_4_ex/camera_4_ex.gd<>uid://cqyfofe6150qb::::res://escenas/Escena_Principal/escena_principal.gdshader<>uid://ck7a4p4nk1u1k::::res://escenas/ContenedorMonedas/contenedor_monedas.tscn<>uid://dnh7xrh0gao44::::res://escenas/moneda/moneda.tscn
+::res://escenas/Nive_1_Ex/::1778685238
+camera_2d.gd::GDScript::6861207353817638893::1778628994::0::1::::<>Camera2D<><>0<>0<><>::
+nivel_1_ex.tscn::PackedScene::8486175039384030501::1778628994::0::1::::<><><>0<>0<><>::uid://bdydoox7x6h3t::::res://escenas/bordes/bordes.tscn<>uid://cdipgntmw0r7q::::res://tile_set/nivel_1.tres<>uid://ce4oasphbufhe::::res://escenas/personaje/personaje.tscn<>uid://c2ubpjig0gkgx::::res://escenas/sierra_3/sierra_3.tscn<>uid://7ow2lxt8deob::::res://escenas/sierra/sierra.tscn<>uid://cctroncrvykna::::res://fondoprueba5.jpg<>uid://cb2wchn02b1ug::::res://fondoprueba6.jpg<>uid://cqyfofe6150qb::::res://escenas/Escena_Principal/escena_principal.gdshader<>uid://b2cgu6ye4223r::::res://fondoprueba4.jpg<>uid://5htl8bu0j3e0::::res://escenas/sierra_2/saw_2.tscn<>uid://db6613s3bollc::::res://fondo prueba.jpg<>uid://dybx6tj8xxwco::::res://fondoprueba2.jpg<>uid://b3nm3rxs1cx3p::::res://fondoprueba3.jpg<>uid://ck7a4p4nk1u1k::::res://escenas/ContenedorMonedas/contenedor_monedas.tscn<>uid://dnh7xrh0gao44::::res://escenas/moneda/moneda.tscn
+::res://escenas/personaje/::1778685238
+material_personaje_rojo.tres::ShaderMaterial::7254400541314073684::1778628994::0::1::::<><><>0<>0<><>::uid://lx0we2rpc88l::::res://shaders/shader_rojo.tres
+personaje.gd::GDScript::256257978211341141::1778628994::0::1::::<>CharacterBody2D<><>0<>0<><>::
+personaje.tscn::PackedScene::5114314703617340886::1778628994::0::1::::<><><>0<>0<><>::uid://dwescms8hiqn::::res://escenas/personaje/personaje.gd<>uid://dbmc6gdd5nmym::::res://escenas/personaje/material_personaje_rojo.tres<>uid://dy15swd0kqveu::::res://sprites/char_lime.png
+Sprite_Frame.tres::SpriteFrames::5985216257622716809::1778628994::0::1::::<><><>0<>0<><>::uid://dikaop4nchj18::::res://sprites/mago_spritesheet.png
+::res://escenas/plataforma/::1778685234
+plataforma.gd::GDScript::8444764919431205771::1778628994::0::1::::<>CharacterBody2D<><>0<>0<><>::
+plataforma.tscn::PackedScene::4111663542446566008::1778628994::0::1::::<><><>0<>0<><>::uid://47o35pl1b7ou::::res://sprites/tileset_mazmorra.png<>uid://dskybrmf8n0l0::::res://escenas/plataforma/plataforma.gd
+::res://escenas/prueba_fisica/::1778685240
+prueba_fisicas.tscn::PackedScene::7071280211825906003::1778628994::0::1::::<><><>0<>0<><>::uid://brikd1dyjy684::::res://icon.svg
+::res://escenas/sierra/::1778685236
+sierra.gd::GDScript::4685218169916088368::1778628994::0::1::::<>CharacterBody2D<><>0<>0<><>::
+sierra.tscn::PackedScene::2276328889445015861::1778628994::0::1::::<><><>0<>0<><>::uid://b70s4gx5u1d5y::::res://escenas/sierra/sierra.gd<>uid://bqievib6l781::::res://sprites/Saw/On (38x38).png
+::res://escenas/sierra_2/::1778685234
+saw_2.tscn::PackedScene::2121290955772768937::1778628994::0::1::::<><><>0<>0<><>::uid://ca26n6ehaywja::::res://saw_2.gd<>uid://bqievib6l781::::res://sprites/Saw/On (38x38).png
+::res://escenas/sierra_3/::1778685236
+sierra_3.tscn::PackedScene::6709315689970467083::1778628994::0::1::::<><><>0<>0<><>::uid://buyanc5131p0w::::res://saw3.gd<>uid://bqievib6l781::::res://sprites/Saw/On (38x38).png
+::res://escenas/sierra_ cuadrado/::1778685236
+saw_4_arriba.gd::GDScript::3155659006068474708::1778628994::0::1::::<>CharacterBody2D<><>0<>0<><>::
+saw_4_arriba.tscn::PackedScene::6288547418177882409::1778628994::0::1::::<><><>0<>0<><>::uid://bk7viiwk4e8mi::::res://escenas/sierra_ cuadrado/saw_4_arriba.gd<>uid://bqievib6l781::::res://sprites/Saw/On (38x38).png
+saw_4_derecha.gd::GDScript::4104383907824018406::1778628994::0::1::::<>CharacterBody2D<><>0<>0<><>::
+saw_4_derecha.tscn::PackedScene::4276017712253870386::1778628994::0::1::::<><><>0<>0<><>::uid://byqguroixbmne::::res://escenas/sierra_ cuadrado/saw_4_derecha.gd<>uid://bqievib6l781::::res://sprites/Saw/On (38x38).png
+saw_4_derecha_2.tscn::PackedScene::1021074202891991971::1778628994::0::1::::<><><>0<>0<><>::uid://dt3am8q2u0hhq::::res://saw_4_derecha_2.gd<>uid://bqievib6l781::::res://sprites/Saw/On (38x38).png
+saw_4_izquierda.gd::GDScript::1840502651216871068::1778628994::0::1::::<>CharacterBody2D<><>0<>0<><>::
+saw_4_izquierda.tscn::PackedScene::71708674720832902::1778628994::0::1::::<><><>0<>0<><>::uid://1hs2sc81jc1y::::res://escenas/sierra_ cuadrado/saw_4_izquierda.gd<>uid://bqievib6l781::::res://sprites/Saw/On (38x38).png
+sierra_4.gd::GDScript::4204031135338212670::1778628994::0::1::::<>CharacterBody2D<><>0<>0<><>::
+sierra_4.tscn::PackedScene::8389384794058977384::1778628994::0::1::::<><><>0<>0<><>::uid://b05p1qbnw05q5::::res://escenas/sierra_ cuadrado/sierra_4.gd<>uid://bqievib6l781::::res://sprites/Saw/On (38x38).png
+::res://escenas/trampa/::1778685234
+trampa2.tscn::PackedScene::5165160688787487357::1778628994::0::1::::<><><>0<>0<><>::uid://bfu2mjuc1r56c::::res://escenas/trampa/trampa_2.gd<>uid://47o35pl1b7ou::::res://sprites/tileset_mazmorra.png
+trampa.gd::GDScript::5287812160560252723::1778628994::0::1::::<>RigidBody2D<><>0<>0<><>::
+trampa.tscn::PackedScene::2743657000403869471::1778628994::0::1::::<><><>0<>0<><>::uid://chlpq10na8q1x::::res://escenas/trampa/trampa.gd<>uid://47o35pl1b7ou::::res://sprites/tileset_mazmorra.png
+trampa_2.gd::GDScript::2780313749028570880::1778628994::0::1::::<>StaticBody2D<><>0<>0<><>::
+::res://estilos_botones/::1778685230
+menu_principal.tres::StyleBoxFlat::1299000991827069619::1778628994::0::1::::<><><>0<>0<><>::
+::res://menu_principal/::1778685230
+jugar.gd::GDScript::7067262661042197734::1778628994::0::1::::<>Button<><>0<>0<><>::
+menu_principal.tscn::PackedScene::4701441427391085925::1778628994::0::1::::<><><>0<>0<><>::uid://dqfia8pf6jypt::::res://Scripts/menu.gd<>uid://bx28ff1urvlhg::::res://temas/boton_menu_principal.tres<>uid://8gxfcu5ua41m::::res://menu_principal/salir.gd<>uid://c7xo1vygm06t3::::res://menu_principal/jugar.gd<>uid://cfy88mj584tg::::res://escenas/Escena_Principal/escena_principal.tscn
+salir.gd::GDScript::2330023663715192948::1778628994::0::1::::<>Button<><>0<>0<><>::
+::res://musica/::1778685232
+musica.wav::AudioStreamWAV::6086664848865898542::1778628994::1778628994::1::::<><><>0<>0<>6fa8446df91927a22693af5274de64c1<>res://.godot/imported/musica.wav-1272e54906429fa145d9d27195220d30.sample::
+::res://Scripts/::1778685224
+controlador_global.gd::GDScript::1585438764205076252::1778628990::0::1::::<>Node<><>0<>0<><>::
+menu.gd::GDScript::8293092930711858441::1778628990::0::1::::<>Control<><>0<>0<><>::
+::res://shaders/::1778685230
+shader_rojo.tres::VisualShader::821115433242485329::1778628990::0::1::::<><><>0<>0<><>::
+::res://sonidos/::1778685224
+sonido_moneda.wav::AudioStreamWAV::6792469516706585032::1778628990::1778628990::1::::<><><>0<>0<>10dc93cd97a14418935c32a71d4a2c07<>res://.godot/imported/sonido_moneda.wav-eae974597beae20681741765866c8b71.sample::
+::res://sprites/::1778685224
+char_lime.png::CompressedTexture2D::8899322935368935280::1778628992::1778628992::1::::<><><>0<>0<>f23f748b210a4c6fee8ab740216a0e42<>res://.godot/imported/char_lime.png-9c1eda47c641e6334691dccf0cdff152.ctex::
+Ladder_2_Version1.png::CompressedTexture2D::233014628899876982::1778628992::1778628992::1::::<><><>0<>0<>03312bb48927a618ffa07c3ae56f2913<>res://.godot/imported/Ladder_2_Version1.png-58cb1b4b6f2b26e8fdca56fe2b5f3cf6.ctex::
+mago_spritesheet.png::CompressedTexture2D::7741442412082028401::1778628992::1778628992::1::::<><><>0<>0<>70d759eeffaf0c6ed8b8c61959cd796c<>res://.godot/imported/mago_spritesheet.png-d763f4a6a07b61488452c0850218f8b4.ctex::
+tileset_mazmorra.png::CompressedTexture2D::2102438193168101304::1778628992::1778628992::1::::<><><>0<>0<>0989e5e10f07ccc7dc8f04b2dd1c5191<>res://.godot/imported/tileset_mazmorra.png-995e5bfa4cad9f0eb88f2627b42749f5.ctex::
+::res://sprites/FreeCuteTileset/::1778685254
+BG1.png::CompressedTexture2D::1665247985204523226::1778628992::1778628992::1::::<><><>0<>0<>57aeb97b69d740ee8eb6ecae83e45a6a<>res://.godot/imported/BG1.png-3bada114196c377fe2b4df8e4808bb34.ctex::
+BG2.png::CompressedTexture2D::235122121284041531::1778628992::1778628992::1::::<><><>0<>0<>7f4964a384c2bcf3754c7eb308545e6d<>res://.godot/imported/BG2.png-5fb0a0b4842067e4b8486f555a43d2f3.ctex::
+BG3.png::CompressedTexture2D::5138357993184405222::1778628992::1778628992::1::::<><><>0<>0<>38ab5abfa0879732224351934732a0a2<>res://.godot/imported/BG3.png-60f3035c6366f0667371091c4ce9c13e.ctex::
+Decors.png::CompressedTexture2D::224242866825585323::1778628992::1778628992::1::::<><><>0<>0<>51f28f043b09156a61b5468d3cbfe618<>res://.godot/imported/Decors.png-383f8232fb7f60e950790a1b580465d0.ctex::
+ExampleTiles.png::CompressedTexture2D::3274667030361387319::1778628992::1778628992::1::::<><><>0<>0<>e17d35174906831b9ba6003750773e8a<>res://.godot/imported/ExampleTiles.png-2a9c27a44e3bb5b957b5b3a325d43d2e.ctex::
+Mockup2x.png::CompressedTexture2D::4682822758970262450::1778628992::1778628992::1::::<><><>0<>0<>214b6dff722c5a345d8d228a9d351f35<>res://.godot/imported/Mockup2x.png-3fbeaba4c17661ad3814d7ad947048fc.ctex::
+::res://sprites/Saw/::1778685230
+Chain.png::CompressedTexture2D::3407934175170585284::1778628992::1778628992::1::::<><><>0<>0<>cc1507a1dac0859714e8f3df1fb63011<>res://.godot/imported/Chain.png-057266b38bbd2adfc71435e6fa8a6882.ctex::
+Off.png::CompressedTexture2D::4157392681615907995::1778628992::1778628992::1::::<><><>0<>0<>09829f1248fee30733a1c5ac1b240cb2<>res://.godot/imported/Off.png-cf65d7f451476486af69ba888906ec75.ctex::
+On (38x38).png::CompressedTexture2D::103712882256860772::1778628992::1778628992::1::::<><><>0<>0<>4198f717d019a918841c738ae0bd9cde<>res://.godot/imported/On (38x38).png-621f78c757139d28175e2a3572053272.ctex::
+::res://temas/::1778685224
+boton_menu_principal2.tres::Theme::619223390423056592::1778628992::0::1::::<><><>0<>0<><>::
+boton_menu_principal.tres::Theme::4058515180172207704::1778628992::0::1::::<><><>0<>0<><>::
+interfaz_in_game.tres::Theme::8137609034067575451::1778628992::0::1::::<><><>0<>0<><>::
+::res://tile_set/::1778685224
+Escalera.tres::TileSet::2780516848439547084::1778628994::0::1::::<><><>0<>0<><>::uid://dk4ymy2ogyt7::::res://sprites/Ladder_2_Version1.png
+nivel_1.tres::TileSet::5000845102718167420::1778628994::0::1::::<><><>0<>0<><>::uid://47o35pl1b7ou::::res://sprites/tileset_mazmorra.png<>uid://crgw1a7xja6io::::res://tile_set/Tileset.png
+Tileset.png::CompressedTexture2D::5979820230730320010::1778628992::1778628994::1::::<><><>0<>0<>8d8f34904497e5ce29f05b0f475675d3<>res://.godot/imported/Tileset.png-eb820ed84cb7828d067664f13c3a794e.ctex::

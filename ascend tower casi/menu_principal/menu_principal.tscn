@@ -1,0 +1,63 @@
+[gd_scene format=3 uid="uid://b78ob20u8yv86"]
+
+[ext_resource type="Script" uid="uid://dqfia8pf6jypt" path="res://Scripts/menu.gd" id="1_g85l6"]
+[ext_resource type="Theme" uid="uid://bx28ff1urvlhg" path="res://temas/boton_menu_principal.tres" id="1_n806c"]
+[ext_resource type="Script" uid="uid://8gxfcu5ua41m" path="res://menu_principal/salir.gd" id="2_liwpa"]
+[ext_resource type="Script" uid="uid://c7xo1vygm06t3" path="res://menu_principal/jugar.gd" id="2_ll0w1"]
+[ext_resource type="PackedScene" uid="uid://cfy88mj584tg" path="res://escenas/Escena_Principal/escena_principal.tscn" id="3_g85l6"]
+[ext_resource type="Script" uid="uid://pfxdo8c5yjun" path="res://menu_principal/cargar.gd" id="5_h33ay"]
+[ext_resource type="PackedScene" uid="uid://buarkvkwpbbh6" path="res://escenas/contorlador_partida/controlador_partida.tscn" id="6_80s3h"]
+
+[node name="MenuPrincipal" type="Control" unique_id=729523113]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_g85l6")
+
+[node name="HBoxContainer" type="HBoxContainer" parent="." unique_id=1982148309]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -78.5
+offset_top = -15.5
+offset_right = 78.5
+offset_bottom = 15.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 20
+
+[node name="Jugar" type="Button" parent="HBoxContainer" unique_id=1826238277]
+layout_mode = 2
+theme = ExtResource("1_n806c")
+text = "Jugar"
+script = ExtResource("2_ll0w1")
+escena_principal = ExtResource("3_g85l6")
+
+[node name="Experto" type="Button" parent="HBoxContainer" unique_id=1921683390]
+layout_mode = 2
+theme = ExtResource("1_n806c")
+text = "Experto"
+
+[node name="Cargar" type="Button" parent="HBoxContainer" unique_id=1417420931 node_paths=PackedStringArray("controlador_partida", "boton_jugar")]
+layout_mode = 2
+theme = ExtResource("1_n806c")
+text = "Cargar"
+script = ExtResource("5_h33ay")
+controlador_partida = NodePath("../../controlador partida")
+boton_jugar = NodePath("../Jugar")
+
+[node name="Salir" type="Button" parent="HBoxContainer" unique_id=1524067731]
+layout_mode = 2
+theme = ExtResource("1_n806c")
+text = "Salir"
+script = ExtResource("2_liwpa")
+
+[node name="controlador partida" parent="." unique_id=2103792127 instance=ExtResource("6_80s3h")]
+
+[connection signal="pressed" from="HBoxContainer/Experto" to="." method="_on_experto_pressed"]

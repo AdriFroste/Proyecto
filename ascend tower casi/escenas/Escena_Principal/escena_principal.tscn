@@ -1,0 +1,63 @@
+[gd_scene format=3 uid="uid://cfy88mj584tg"]
+
+[ext_resource type="Script" uid="uid://skgofwc3sw4j" path="res://escenas/Escena_Principal/escena_principal.gd" id="1_ev5iv"]
+[ext_resource type="PackedScene" uid="uid://dqg5lfa3a2hjy" path="res://escenas/nivel_10/nivel_10.tscn" id="2_27rxs"]
+[ext_resource type="PackedScene" uid="uid://c7nmawutd1t8g" path="res://inicio.tscn" id="2_dvifj"]
+[ext_resource type="PackedScene" uid="uid://br74e1c8juv2v" path="res://escenas/nivel_0_ex/nivel_0_ex.tscn" id="2_hjnm5"]
+[ext_resource type="PackedScene" uid="uid://dby2fncamynj6" path="res://escenas/nivel_0/nivel_0.tscn" id="3_dvifj"]
+[ext_resource type="PackedScene" uid="uid://ds51ce5h7g4e0" path="res://escenas/Nive_1_Ex/nivel_1_ex.tscn" id="3_ev5iv"]
+[ext_resource type="PackedScene" uid="uid://daw6putulrjs5" path="res://escenas/Nivel_1/nivel_1.tscn" id="4_7wm7n"]
+[ext_resource type="PackedScene" uid="uid://dxgs36kpmhovk" path="res://escenas/nivel_2_ex/nivel_2_ex.tscn" id="4_bw4hq"]
+[ext_resource type="PackedScene" uid="uid://b57p8a82bpisn" path="res://escenas/nivel_3_ex/nivel_3_ex.tscn" id="5_dvifj"]
+[ext_resource type="PackedScene" uid="uid://c56dj7fo8juj6" path="res://escenas/nivel_2/nivel_2.tscn" id="5_mwx6s"]
+[ext_resource type="PackedScene" uid="uid://cxro1jgmnms63" path="res://escenas/nivel_4_ex/nivel_4_ex.tscn" id="6_7wm7n"]
+[ext_resource type="PackedScene" uid="uid://bei6olcgd45ay" path="res://escenas/nivel_3.tscn" id="6_o0o34"]
+[ext_resource type="PackedScene" uid="uid://dhgbp2jdiyrdo" path="res://escenas/nivel_4/nivel_4.tscn" id="7_3oh4r"]
+[ext_resource type="AudioStream" uid="uid://csyoql15iygaw" path="res://musica/musica.wav" id="8_hjnm5"]
+[ext_resource type="PackedScene" uid="uid://dwqnwvgsq8k7" path="res://escenas/nivel5/nivel_5.tscn" id="8_la1qn"]
+[ext_resource type="PackedScene" uid="uid://c1ilely3s0wh" path="res://escenas/nivel6/nivel_6.tscn" id="9_7wm7n"]
+[ext_resource type="PackedScene" uid="uid://dcu0n3gyc4ipg" path="res://contador_muertes.tscn" id="9_bw4hq"]
+[ext_resource type="PackedScene" uid="uid://cnfuefoftxhnj" path="res://escenas/nivel7/nivel_3.tscn" id="10_le0gb"]
+[ext_resource type="PackedScene" uid="uid://clx48s606ldri" path="res://escenas/nivel8/nivel_8.tscn" id="11_27rxs"]
+[ext_resource type="PackedScene" uid="uid://bwftlmim3dgi0" path="res://escenas/nivel9/nivel_9.tscn" id="12_5lceo"]
+[ext_resource type="PackedScene" uid="uid://br0tgvp2mt780" path="res://escenas/final/final.tscn" id="14_5lceo"]
+[ext_resource type="PackedScene" uid="uid://cy2xiy4v0qg3y" path="res://escenas/escena_final/escena_final.tscn" id="15_h2td2"]
+[ext_resource type="PackedScene" uid="uid://buarkvkwpbbh6" path="res://escenas/contorlador_partida/controlador_partida.tscn" id="22_uj4f8"]
+[ext_resource type="Script" uid="uid://hk1oqd0kdynp" path="res://escenas/Escena_Principal/controlador_pausa.gd" id="23_g1jrm"]
+
+[node name="Escena_Principal" type="Node2D" unique_id=75496615 node_paths=PackedStringArray("controlador_partida")]
+script = ExtResource("1_ev5iv")
+controlador_partida = NodePath("controlador partida")
+niveles = Array[PackedScene]([ExtResource("2_dvifj"), ExtResource("3_dvifj"), ExtResource("4_7wm7n"), ExtResource("5_mwx6s"), ExtResource("6_o0o34"), ExtResource("7_3oh4r"), ExtResource("8_la1qn"), ExtResource("9_7wm7n"), ExtResource("10_le0gb"), ExtResource("11_27rxs"), ExtResource("12_5lceo"), ExtResource("2_27rxs"), ExtResource("14_5lceo"), ExtResource("15_h2td2")])
+niveles_experto = Array[PackedScene]([ExtResource("2_dvifj"), ExtResource("2_hjnm5"), ExtResource("3_ev5iv"), ExtResource("4_bw4hq"), ExtResource("5_dvifj"), ExtResource("6_7wm7n")])
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="." unique_id=246062110]
+stream = ExtResource("8_hjnm5")
+autoplay = true
+bus = &"Musica"
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1616545138]
+
+[node name="ContadorMuertes" parent="CanvasLayer" unique_id=1547316533 instance=ExtResource("9_bw4hq")]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.0
+offset_top = 5.0
+offset_right = 0.0
+offset_bottom = 5.0
+grow_vertical = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="CanvasLayer2" type="CanvasLayer" parent="." unique_id=1954806425]
+
+[node name="ColorRect" type="ColorRect" parent="CanvasLayer2" unique_id=592626720]
+offset_right = 1906.0
+offset_bottom = 943.0
+color = Color(0, 0, 0, 1)
+
+[node name="controlador partida" parent="." unique_id=2103792127 instance=ExtResource("22_uj4f8")]
+
+[node name="controlador pausa" type="Node" parent="." unique_id=30288550]
+process_mode = 3
+script = ExtResource("23_g1jrm")

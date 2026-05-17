@@ -1,0 +1,86 @@
+[gd_scene format=3 uid="uid://drr47a1u85s6c"]
+
+[ext_resource type="Script" uid="uid://b05p1qbnw05q5" path="res://escenas/sierra_ cuadrado/sierra_4.gd" id="1_6t5ss"]
+[ext_resource type="Texture2D" uid="uid://bqievib6l781" path="res://sprites/Saw/On (38x38).png" id="2_bqafo"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fiv5l"]
+atlas = ExtResource("2_bqafo")
+region = Rect2(0, 0, 38, 38)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nrul8"]
+atlas = ExtResource("2_bqafo")
+region = Rect2(38, 0, 38, 38)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_k1bnv"]
+atlas = ExtResource("2_bqafo")
+region = Rect2(76, 0, 38, 38)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6a3ti"]
+atlas = ExtResource("2_bqafo")
+region = Rect2(114, 0, 38, 38)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_a1vbw"]
+atlas = ExtResource("2_bqafo")
+region = Rect2(152, 0, 38, 38)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bn2i4"]
+atlas = ExtResource("2_bqafo")
+region = Rect2(190, 0, 38, 38)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5tjnr"]
+atlas = ExtResource("2_bqafo")
+region = Rect2(228, 0, 38, 38)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7ygg0"]
+atlas = ExtResource("2_bqafo")
+region = Rect2(266, 0, 38, 38)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_gtsos"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fiv5l")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nrul8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_k1bnv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6a3ti")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_a1vbw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bn2i4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5tjnr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7ygg0")
+}],
+"loop": true,
+"name": &"default",
+"speed": 20.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_bbwd4"]
+radius = 18.110771
+
+[node name="saw 4" type="CharacterBody2D" unique_id=868641119]
+modulate = Color(0, 0, 0, 1)
+script = ExtResource("1_6t5ss")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1355569482]
+sprite_frames = SubResource("SpriteFrames_gtsos")
+
+[node name="Area2D" type="Area2D" parent="." unique_id=1458193121]
+collision_layer = 2
+collision_mask = 4
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=656253572]
+light_mask = 2
+shape = SubResource("CircleShape2D_bbwd4")

@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://c5mu1suw03qql"]
+
+[ext_resource type="Script" uid="uid://bxix3q6c50g0" path="res://barra_salto.gd" id="1_02pk1"]
+
+[node name="BarraSalto" type="Control" unique_id=1075446219]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_02pk1")
